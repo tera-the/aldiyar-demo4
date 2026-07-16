@@ -1,0 +1,315 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="assets/favicon.png" type="image/x-icon">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@4.9.0/fonts/remixicon.css" rel="stylesheet" />
+    <title>Aldiyar Demo #4</title>
+</head>
+
+<body>
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="#">
+                <img src="assets/logo.webp" alt="Логотип бренда">
+            </a>
+
+            <div class="nav__menu">
+                <ul class="nav__links">
+                    <a class="nav__link" href="#home">Home</a>
+                    <a class="nav__link" href="#specs">Specs</a>
+                    <a class="nav__link" href="#case">Case</a>
+                    <a class="nav__link" href="#products">Products</a>
+                </ul>
+
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-line"></i>
+                </div>
+            </div>
+
+            <div class="nav__open" id="nav-open">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <main class="main">
+
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <div>
+                    <img src="assets/home.webp" alt="Новая модель" class="home__img">
+                </div>
+
+                <div class="home__data">
+                    <div class="home__header">
+                        <h1 class="home__title">On ear</h1>
+                        <h1 class="home__subtitle">Beats 3</h1>
+                    </div>
+
+                    <div class="home__footer">
+                        <h3 class="home__title-description">Overview</h3>
+                        <p class="home__description">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quam
+                            quisquam aut aperiam harum nulla impedit temporibus repellendus fugit tenetur animi.
+                            Blanditiis et delectus, illum eaque repudiandae doloribus. Maiores, repellendus eius!</p>
+                        <a href="#" class="button button--flex">
+                            <span class="button--flex">
+                                <i class="ri-shopping-bag-line button__icon"></i>Add to Bag
+                            </span>
+                            <span class="home__price">
+                                $299
+                            </span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="sponsor section" id="sponsor">
+            <div class="sponsor__container container grid">
+                <img src="assets/sponsor1.webp" alt="Спонсор" class="sponsor__logo">
+                <img src="assets/sponsor2.webp" alt="Спонсор" class="sponsor__logo">
+                <img src="assets/sponsor3.webp" alt="Спонсор" class="sponsor__logo">
+                <img src="assets/sponsor4.webp" alt="Спонсор" class="sponsor__logo">
+            </div>
+        </section>
+
+        <section class="specs section" id="specs">
+            <h2 class="section__title section__title-gradient">Specs</h2>
+
+            <div class="specs__container container grid">
+                <div class="specs__content grid">
+                    <div class="specs__data grid">
+                        <i class="ri-bluetooth-line specs__icon"></i>
+                        <h3 class="specs__title">Connection</h3>
+                        <span class="specs__subtitle">Bluetooth v5.2</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-battery-charge-line specs__icon"></i>
+                        <h3 class="specs__title">Battery</h3>
+                        <span class="specs__subtitle">Duration 40h</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-plug-line specs__icon"></i>
+                        <h3 class="specs__title">Load</h3>
+                        <span class="specs__subtitle">Fast charge 4.2+AAC</span>
+                    </div>
+
+                    <div class="specs__data">
+                        <i class="ri-plug-line specs__icon"></i>
+                        <h3 class="specs__title">Load</h3>
+                        <span class="specs__subtitle">Fast charge 4.2+AAC</span>
+                    </div>
+                </div>
+
+                <img src="assets/specs.webp" class="specs__img" alt="Наушники">
+            </div>
+        </section>
+
+        <section class="case section grid" id="case">
+            <h2 class="section__title section__title-gradient">Case</h2>
+
+            <div class="case__container container grid">
+                <div>
+                    <img src="assets/case.webp" alt="Наушники кейс" class="case__img">
+                </div>
+
+                <div class="case__data">
+                    <p class="case__description">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur est excepturi id ex, dicta
+                        fugit. dolor sit amet consectetur adipisicing elit. Aspernatur est excepturi id ex, dicta
+                    </p>
+
+                    <a href="#" class="button button--flex">
+                        <i class="ri-information-line button__icon"></i> More info
+                    </a>
+                </div>
+            </div>
+        </section>
+
+        <section class="discount section" id="discount">
+            <div class="discount__container container grid">
+                <div class="discount__animate">
+                    <h2 class="discount__title">Immerse yourself in <br> your music</h2>
+                    <p class="discount__description">Get it now, up to 50% off.</p>
+                    <a href="#" class="button button--flex">
+                        <i class="ri-shopping-bag-line button__icon"></i> Buy Now
+                    </a>
+                </div>
+
+                <img src="assets/discount.webp" alt="Скидка" class="discount__img">
+            </div>
+        </section>
+
+        <section class="products section" id="products">
+            <h2 class="section__title section__title-gradient products__line">
+                Choose <br> Your Style
+            </h2>
+
+            <div class="products__container container grid">
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="assets/product1.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">Black</h3>
+                        <span class="products__price">$249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="assets/product2.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">Red Black</h3>
+                        <span class="products__price">$249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="assets/product3.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">Night Black</h3>
+                        <span class="products__price">$249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="assets/product4.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">Blue</h3>
+                        <span class="products__price">$249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+
+                <article class="products__card">
+                    <div class="products__content">
+                        <img src="assets/product5.webp" alt="" class="products__img">
+
+                        <h3 class="products__title">Twilight gray</h3>
+                        <span class="products__price">$249</span>
+
+                        <button class="button button--flex products__button">
+                            <i class="ri-shopping-bag-line button__icon"></i>
+                        </button>
+                    </div>
+                </article>
+            </div>
+        </section>
+    </main>
+
+
+    <footer class="footer section" id="footer">
+        <div class="footer__container container grid">
+            <a href="#" class="footer__logo">
+                <img src="assets/logo.webp" alt="Лого" loading="lazy">
+            </a>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Products</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Specs</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Case</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Products</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <h3 class="footer__title">Support</h3>
+
+                <ul class="footer__links">
+                    <li>
+                        <a href="#" class="footer__link">Product Help</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Register</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Updates</a>
+                    </li>
+
+                    <li>
+                        <a href="#" class="footer__link">Provides</a>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="footer__content">
+                <form class="footer__form">
+                    <input type="email" placeholder="Email" class="footer__input">
+                    <button class="button button--flex"><i
+                            class="ri-send-plane-line button__icon"></i>Subscribe</button>
+                </form>
+
+                <div class="footer__social">
+                    <a href="https://www.facebook.com" class="footer__social-link"><i class="ri-facebook-fill"></i></a>
+                    <a href="https://www.instagram.com" class="footer__social-link"><i
+                            class="ri-instagram-fill"></i></a>
+                    <a href="https://www.telegram.org" class="footer__social-link"><i class="ri-telegram-fill"></i></a>
+                </div>
+            </div>
+        </div>
+
+        <p class="footer__copy">
+            <a href="https://kwork.ru/user/terathe_" target="_blank" class="footer__copy-link">&#169; This layout is not
+                my own
+                creation. It is used only for educational
+                purposes. <br> <span class="footer__copy-span">Reach out to my Kwork Profile!</span></a>
+        </p>
+    </footer>
+
+    <!-- <div id="warning-modal" class="warning__modal warning__modal-active"> -->
+    <div id="warning-modal" class="warning__modal">
+        <div class="warning__modal-content">
+            <h3>Важное уведомление</h3>
+            <p>Обратите внимание, что данный макет не является моей авторской разработкой. Он использован исключительно
+                в учебных целях (для демонстрации навыков верстки / портфолио).</p>
+            <button class="button warning__modal-close">Понятно</button>
+        </div>
+    </div>
+
+    <!-- SCROLL UP -->
+
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-s-line scroll__icon"></i>
+    </a>
+
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
